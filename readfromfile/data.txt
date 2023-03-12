@@ -1,0 +1,10 @@
+ZCOUNT {ArcDiameter|:|StaleSession|:|prd3|:|10014}|:|SessionDetails -inf +inf
+ZCOUNT {ArcDiameter|:|RAAASA|:|prd3|:|10014}|:|SessionDetails -inf +inf
+ZCOUNT {ArcDiameter|:|CDR|:|prd3|:|10014}|:|PublishDetails -inf +inf
+ZCOUNT {ArcDiameter|:|ASR|:|prd3|:|10014}|:|SortedSet -inf +inf
+ZCOUNT {ArcDiameter|:|RAR|:|prd3|:|10014}|:|SortedSet -inf +inf
+HLEN {ArcDiameter|:|sessionIDOHORInfo|:|prd3|:|10014}
+HLEN ArcDiameter|:|SessionList|:|prd3|:|10014|:|mscp01.amsgsn1|:|amsggsn1gy
+HLEN ArcDiameter|:|SessionList|:|prd3|:|10014|:|mscp01.bruggsn1|:|bruggsn1gy
+LLEN ArcDiameter|:|prd3|:|10014|:|mvnescpat2|:|scp.at.ckhiod.com
+LLEN ArcDiameter|:|prd3|:|10014|:|mvnescpuk2|:|scp.uk.ckhiod.com
